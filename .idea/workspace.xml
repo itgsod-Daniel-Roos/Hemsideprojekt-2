@@ -26,8 +26,38 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.23006135" vertical-offset="0" max-vertical-offset="652">
-              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.41411042" vertical-offset="0" max-vertical-offset="652">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="galleri.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/galleri.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="matsedeln.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/matsedeln.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="info.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/info.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -57,6 +87,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/matsedel.html" />
+        <option value="$PROJECT_DIR$/templates/galleri.html" />
+        <option value="$PROJECT_DIR$/templates/matsedeln.html" />
+        <option value="$PROJECT_DIR$/templates/info.html" />
+        <option value="$PROJECT_DIR$/static/css/style.css" />
       </list>
     </option>
   </component>
@@ -157,6 +192,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -254,6 +290,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/templates/info.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="676">
@@ -262,10 +306,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/galleri.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/matsedeln.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23006135" vertical-offset="0" max-vertical-offset="652">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.41411042" vertical-offset="0" max-vertical-offset="652">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
           <folding />
         </state>
       </provider>
