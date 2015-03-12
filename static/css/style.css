@@ -1,0 +1,34 @@
+#logo{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    background-color: red;
+}
+
+#titel{
+    position: absolute;
+    margin-left: 21%;
+    font-size: 50px;
+    margin-top: 8%;
+}
+
+#nav-bar{
+    position: absolute;
+    margin-top: 12%;
+    width: 20%;
+    height: 50%;
+    background-color: lightblue;
+    margin-left: -0%;
+    border-style: solid;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+#nav-bar-items{
+    position: absolute;
+    margin-left: -10%;
+    font-size: 30px;
+}
