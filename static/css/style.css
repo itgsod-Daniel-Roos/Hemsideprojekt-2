@@ -37,6 +37,14 @@ ul
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
+#posts{
+    position: absolute;
+    margin-left: 18%;
+    height: 50%;
+    width: 82%;
+    background-color: blue;
+}
+
 a:link{
     color: black;
     text-decoration: none;
