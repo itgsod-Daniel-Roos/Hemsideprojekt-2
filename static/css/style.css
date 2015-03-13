@@ -7,9 +7,14 @@
 
 #titel{
     position: absolute;
-    margin-left: 17.5%;
-    font-size: 50px;
-    margin-top: 8%;
+    margin-left: 18%;
+    font-size: 500%;
+    height: 20%;
+    width: 30%;
+}
+
+#titel-text{
+    margin-top: 20%;
 }
 
 #nav-bar{
@@ -40,8 +45,9 @@ ul
 #posts{
     position: absolute;
     margin-left: 18%;
+    margin-top: 12%;
     height: 50%;
-    width: 82%;
+    width: 80%;
     background-color: blue;
 }
 
