@@ -42,13 +42,82 @@ ul
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-#posts{
+#postsbox{
     position: absolute;
     margin-left: 18%;
     margin-top: 12%;
     height: 50%;
-    width: 80%;
+    width: 40%;
+}
+
+.posts{
+    padding-bottom: 5%;
+}
+
+#posttitle{
+    font-size: 200%;
+}
+
+#postdate{
+    float: right;
+}
+
+#postbody{
+    margin-top: 5%;
+
+}
+
+#galleri{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    margin-top: 12%;
+    margin-left: 18%;
+}
+
+.album{
+    position: absolute;
     background-color: blue;
+    width: 100px;
+    height: 100px;
+    padding-right: 0%;
+    padding-bottom: 0%;
+}
+
+#galleri2{
+    margin-left: 110px;
+}
+
+#galleri3{
+    margin-left: 220px;
+}
+
+#galleri4{
+    margin-top: 110px;
+}
+
+#galleri5{
+    margin-top: 110px;
+    margin-left: 110px;
+}
+
+#galleri6{
+    margin-top: 110px;
+    margin-left: 220px;
+}
+
+#galleri7{
+    margin-top: 220px;
+}
+
+#galleri8{
+    margin-top: 220px;
+    margin-left: 110px;
+}
+
+#galleri9{
+    margin-top: 220px;
+    margin-left: 220px;
 }
 
 a:link{
