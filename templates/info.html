@@ -2,11 +2,14 @@
 <head lang="en">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../static/css/style.css" type="text/css">
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
 </head>
+
+<title>Information - Skolhemsida</title>
 
 <body>
     <div id="logo">
-
+        <img src="../static/img/skol-logga.png" style="width: 100%">
     </div>
 
     <div id="titel">
@@ -24,18 +27,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="learnpoint.html">
-                        Learnpoint
-                    </a>
-                </li>
-                <li>
                     <a href="galleri.html">
                         Galleri
-                    </a>
-                </li>
-                <li>
-                    <a href="matsedeln.html">
-                        Matsedel
                     </a>
                 </li>
                 <li>
@@ -47,5 +40,25 @@
         </div>
     </div>
 
-
+    <div class="infobox">
+        <div id="info">
+            Telefon: 123456789 <br>
+            Address: 123 Fakestreet <br>
+            E-mail: fakemail@domain.edu
+        </div>
+        <div id="hotel-map">
+            <script>
+                function initialize() {
+                    var mapCanvas = document.getElementById('hotel-map');
+                    var mapOptions = {
+                        center: new google.maps.LatLng(59.223372, 17.939992),
+                        zoom: 15,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                    };
+                    var map = new google.maps.Map(mapCanvas, mapOptions)
+                }
+                google.maps.event.addDomListener(window, 'load', initialize);
+            </script>
+        </div>
+    </div>
 </body>

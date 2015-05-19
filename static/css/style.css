@@ -1,8 +1,7 @@
 #logo{
     position: absolute;
     width: 17%;
-    height: 20%;
-    background-color: red;
+    height: 19.8%;
 }
 
 #titel{
@@ -19,9 +18,9 @@
 
 #nav-bar{
     position: absolute;
-    margin-top: 12%;
+    margin-top: 11.5%;
     width: 17%;
-    height: 50%;
+    height: 22%;
     background-color: lightblue;
     border-style: solid;
 }
@@ -42,37 +41,34 @@ ul
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-#postsbox{
+.infobox{
     position: absolute;
     margin-left: 18%;
     margin-top: 12%;
     height: 50%;
     width: 40%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 .posts{
     padding-bottom: 5%;
 }
 
-#posttitle{
+.posttitle{
     font-size: 200%;
 }
 
-#postdate{
+.postdate{
     float: right;
 }
 
-#postbody{
+.postbody{
     margin-top: 5%;
 
 }
 
-#galleri{
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    margin-top: 12%;
-    margin-left: 18%;
+#info{
+    font-size: 22px;
 }
 
 .album{
@@ -118,6 +114,21 @@ ul
 #galleri9{
     margin-top: 220px;
     margin-left: 220px;
+}
+
+.galleria{
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 14%;
+    height: 50%;
+    width: 40%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#hotel-map{
+    z-index: -1;
+    height: 400px;
+    width: 500px;
 }
 
 a:link{
