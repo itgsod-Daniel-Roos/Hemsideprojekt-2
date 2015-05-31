@@ -1,26 +1,21 @@
 #logo{
     position: absolute;
-    width: 17%;
-    height: 19.8%;
+    width: 212px;
+    height: 200px;
 }
 
 #titel{
     position: absolute;
-    margin-left: 18%;
     font-size: 500%;
-    height: 20%;
-    width: 30%;
-}
-
-#titel-text{
-    margin-top: 20%;
+    height: 50px;
+    width: 375px;
 }
 
 #nav-bar{
     position: absolute;
-    margin-top: 11.5%;
-    width: 17%;
-    height: 22%;
+    margin-top: 145px;
+    width: 207px;
+    height: 150px;
     background-color: lightblue;
     border-style: solid;
 }
@@ -41,12 +36,65 @@ ul
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
+@media screen and (max-width: 730px) and (min-width: 620px){
+    .infobox{
+        width: 60%;
+    }
+    #hotel-map{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 730px){
+    .infobox{
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 620px){
+    .infobox{
+        margin-left: 0px;
+        margin-top: 380px;
+        width: 400px;
+    }
+    #titel{
+        margin-left: 0px;
+        margin-top: 300px;
+    }
+    #hotel-map{
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 420px){
+    .infobox{
+        width: 85%;
+    }
+    #titel{
+        width: 85%;
+    }
+    #hotel-map{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 620px){
+    .infobox{
+        margin-left: 225px;
+        margin-top: 150px;
+    }
+    #titel{
+        margin-left: 225px;
+        margin-top: 65px;
+    }
+    #hotel-map{
+        width: 500px;
+    }
+}
+
 .infobox{
     position: absolute;
-    margin-left: 18%;
-    margin-top: 12%;
     height: 50%;
-    width: 40%;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
@@ -56,10 +104,6 @@ ul
 
 .posttitle{
     font-size: 200%;
-}
-
-.postdate{
-    float: right;
 }
 
 .postbody{
@@ -128,7 +172,7 @@ ul
 #hotel-map{
     z-index: -1;
     height: 400px;
-    width: 500px;
+
 }
 
 a:link{
