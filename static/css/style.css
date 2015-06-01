@@ -46,7 +46,7 @@ ul
     .galleria{
         width: 60%;
         margin-left: 225px;
-        margin-top: 150px;
+        margin-top: 170px;
     }
 }
 
@@ -56,15 +56,9 @@ ul
     }
     .galleria{
         margin-left: 225px;
-        margin-top: 150px;
+        margin-top: 170px;
         width: 450px;
     }
-}
-
-.galleria{
-    position: absolute;
-    height: 50%;
-    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 @media screen and (max-width: 620px){
@@ -81,7 +75,7 @@ ul
         width: 400px;
     }
     .galleria{
-        margin-top: 400px;
+        margin-top: 420px;
         width: 450px;
     }
 }
@@ -145,6 +139,12 @@ ul
     height: 100px;
     padding-right: 0%;
     padding-bottom: 0%;
+}
+
+.galleria{
+    position: absolute;
+    height: 360px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
 #galleri2{
